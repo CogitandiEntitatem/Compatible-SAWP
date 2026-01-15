@@ -26,3 +26,17 @@ body {
   text-align: center;
   /* margin-inline: 6vw; */
 }
+
+/* COVER ARTICLE STYLE */
+#hero {
+  margin-inline: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+  position: relative;
+}
+
+#hero>video{
+  width: 100vw;
+}
