@@ -40,3 +40,17 @@ body {
 #hero>video{
   width: 100vw;
 }
+
+/*=============================================================================*/
+
+.bnr_atention {
+  padding: 0.3EM 0 0.3EM 0;
+  font-weight: bold;
+  background-color: var(--cstm-colour-yellow);
+}
+
+/*=============================================================================*/
+
+.pink {
+  background-color: var(--cstm-colour-pink);
+}
