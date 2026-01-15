@@ -1,3 +1,13 @@
+:root{
+  --cstm-colour-pink: #FF5A65;
+  --cstm-colour-yellow: #FCD448;
+  --cstm-colour-purple: #CDBFEB;
+  --cstm-colour-blue: #ACDEEC;
+
+  /* --font-reg : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-sz-reg  :  small; */
+}
+
 
 html {
   font-family: sans-serif;
