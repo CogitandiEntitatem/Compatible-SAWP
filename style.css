@@ -27,18 +27,17 @@ body {
 }
 
 .bttn_fk {
-    padding: 5px 10px 7px 10px;
+  padding: 5px 10px 7px 10px;
 
-    border-radius: 20px;
+  border-radius: 20px;
 
-    /* text-align: center; */
-
-    width: fit-content;
-    height: fit-content;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
 }
 
 .button:hover {
-    border-color: beige;
+  border-color: beige;
 }
 
 .gutters{
@@ -52,6 +51,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
 }
 
 ._2x2 {
