@@ -83,9 +83,29 @@ body {
 
 .bnr_atention {
   padding: 0.01REM 0 0.3REM 0;
-  font-weight: bold;
   background-color: var(--cstm-colour-yellow);
+
+  overflow: hidden;
+  white-space: nowrap;
 }
+
+.bnr_atention span {
+  display: inline-block;
+  margin-right: 0.2rem; /* spacing between repeats */
+  animation: ticker 10s linear infinite;
+}
+
+.bnr_atention span::after {
+  content: " ⚠ATENCIÓN"; /* duplicate via CSS */
+}
+
+@keyframes ticker {
+  0%   { transform: translateX(0); } 
+  100% { transform: translateX(-200%); }
+}
+
+
+
 
 
 /* ARTICLE 3 : RED-CPH STYLE */
