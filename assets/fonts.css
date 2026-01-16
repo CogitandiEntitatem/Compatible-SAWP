@@ -16,6 +16,14 @@
   font-variation-settings: "wdth" 100;
 }
 
+.fredoka-bld {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 .quicksand-reg {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
