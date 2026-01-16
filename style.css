@@ -44,7 +44,7 @@ body {
 /*=============================================================================*/
 
 .bnr_atention {
-  padding: 0.3EM 0 0.3EM 0;
+  padding: 0.01REM 0 0.3REM 0;
   font-weight: bold;
   background-color: var(--cstm-colour-yellow);
 }
