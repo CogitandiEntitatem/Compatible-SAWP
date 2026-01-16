@@ -24,7 +24,10 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   text-align: center;
-  /* margin-inline: 6vw; */
+}
+
+.gutters{
+  margin-inline: 6vw;
 }
 
 /* GRID RULES */
@@ -39,7 +42,11 @@ body {
 ._2x2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
 
+._1x2 {
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 /* COVER ARTICLE STYLE */
