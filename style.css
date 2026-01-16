@@ -26,6 +26,21 @@ body {
   text-align: center;
 }
 
+.bttn_fk {
+    padding: 5px 10px 7px 10px;
+
+    border-radius: 20px;
+
+    /* text-align: center; */
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.button:hover {
+    border-color: beige;
+}
+
 .gutters{
   margin-inline: 6vw;
 }
