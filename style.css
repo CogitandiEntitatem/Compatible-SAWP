@@ -112,7 +112,7 @@ body {
 /* ARTICLE 2 : Medula STYLE */
 /*=============================================================================*/
 
- .wrap-row {
+.wrap-row {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -152,7 +152,8 @@ body {
 
 .medula-card {
   flex: 1;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   position: relative;
 }
 
@@ -164,8 +165,8 @@ body {
 svg {
   z-index: 2;
   position: absolute;
-  top: -3rem;
-  left: 6rem;
+  top: -60%;
+  left: 28%;
 }
 
 circle {
