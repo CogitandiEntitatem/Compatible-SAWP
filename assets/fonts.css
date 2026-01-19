@@ -50,3 +50,11 @@
   font-size: 2rem;
   font-weight: 700;
 }
+
+.subheader-font {
+  line-height: normal;
+  font-size: 2rem;
+  font-weight: 500;
+  width: min-content;
+  text-align: end;
+}
