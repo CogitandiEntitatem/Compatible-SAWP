@@ -31,6 +31,14 @@
   font-style: normal;
 }
 
+.quicksand-bld {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
 .annietel-reg {
   font-family: "Annie Use Your Telescope", cursive;
   font-weight: 400;

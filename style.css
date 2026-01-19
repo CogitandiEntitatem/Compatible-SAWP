@@ -120,6 +120,27 @@ body {
   padding: 0 18% 0 18%;
 }
 
+
+/* ARTICLE N : FOOTER STYLE */
+/*=============================================================================*/
+#footer {
+  margin: 2rem 0 6rem 0;
+}
+
+#footer video{
+  width: 40vw;
+}
+
+#footer img {
+  margin-top: 1.2rem;
+  width: 40px;
+  height: 42px;
+}
+
+#footer .bttn_fk {
+  padding: 0.6rem 0.8rem;
+}
+
 /*=============================================================================*/
 
 .pink {
@@ -141,7 +162,7 @@ body {
 .white {
   background-color: #FFFFFF;
 }
-  
+
 .pink-font {
   color: var(--cstm-colour-pink);
 }
