@@ -233,10 +233,43 @@ text {
 
 /* ARTICLE 4 : PERCENTAGES STYLE */
 /*=============================================================================*/
+#stats {
+  position: relative;
+}
+
+.curve4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve4 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 144px;
+}
+
+.curve4 .shape-fill {
+  fill: #FF5A65;
+}
+
+#ripple {
+  position: absolute;
+  z-index: -1;
+  top: 64%;
+  height: 600px ;
+  transform: translate(-50%, -50%);
+}
+
 
 #stats > div {
   display: flex;
   justify-content: center;
+  padding-top:80px;
 }
 
 #impact {
