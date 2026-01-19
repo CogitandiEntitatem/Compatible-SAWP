@@ -112,7 +112,7 @@ body {
 /* ARTICLE 2 : Medula STYLE */
 /*=============================================================================*/
 
-.warp-row {
+ .wrap-row {
   display:flex;
   direction: row;
   /* flex-wrap: wrap; */
