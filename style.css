@@ -112,9 +112,13 @@ body {
 /* ARTICLE 2 : Medula STYLE */
 /*=============================================================================*/
 
+.warp-row {
+  display:flex;
+  direction: row;
+  /* flex-wrap: wrap; */
+}
 
-
-.ttl {
+.medula-ttl {
   flex: 1;
   display: inline;
   position: relative;
@@ -123,20 +127,26 @@ body {
   min-width: 330px;
 }
 
-.ttl > div:nth-child(1) {
+.medula-ttl > div:nth-child(1) {
   position: relative;
   left: 2rem;
   top: -1.3rem;
 }
-.ttl > div:nth-child(2) {
+.medula-ttl > div:nth-child(2) {
   position: relative;
   left: 5rem;
   top: -2.1rem;
 }
-.ttl > div:nth-child(3) {
+
+.medula-ttl > div:nth-child(3) {
   position: relative;
   left: 7.5rem;
   top: -2.7rem;
+}
+
+#medula-p1 {
+  flex: 1;
+  min-width: 380px;
 }
 
 /* ARTICLE 3 : RED-CPH STYLE */
