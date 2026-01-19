@@ -24,6 +24,11 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   text-align: center;
+  
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .bttn_fk {
