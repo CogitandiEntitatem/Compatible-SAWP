@@ -112,26 +112,28 @@ body {
 /* ARTICLE 2 : Medula STYLE */
 /*=============================================================================*/
 
+
+
 .ttl {
+  flex: 1;
   display: inline;
+  position: relative;
+  left: -6%;
+
+  min-width: 330px;
 }
 
 .ttl > div:nth-child(1) {
   position: relative;
-  left: 18%;
-}
-
-.ttl > div:nth-child(1) > div:nth-child(1) {
-  position: relative;
   left: 2rem;
   top: -1.3rem;
 }
-.ttl > div:nth-child(1) > div:nth-child(2) {
+.ttl > div:nth-child(2) {
   position: relative;
   left: 5rem;
   top: -2.1rem;
 }
-.ttl > div:nth-child(1) > div:nth-child(3) {
+.ttl > div:nth-child(3) {
   position: relative;
   left: 7.5rem;
   top: -2.7rem;
