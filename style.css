@@ -379,8 +379,19 @@ text {
   width: 1rem;
 }
 
+._stat_warp {
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+  justify-content: flex-start;
+}
+
 .inst-card-vis > video {
   width: 200px;
+}
+
+.inst-card-hid {
+  width: clamp(200px,25vw,628px);
+  text-align: left;
 }
 
 /* ARTICLE N : FOOTER STYLE */
