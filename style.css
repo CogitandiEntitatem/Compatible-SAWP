@@ -162,7 +162,7 @@ body {
   height: auto;
 }
 
-svg {
+.medula-card > svg {
   z-index: 2;
   position: absolute;
   top: -20%;
