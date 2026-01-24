@@ -259,12 +259,18 @@ text {
   fill: var(--cstm-colour-pink);
 }
 
-/* #drop {
-  position: absolute;
+#drop {
+  position: relative;
+  top: 60%;
+  z-index: -1;
   height: 600px ;
-  /* top: 64%;
-  transform: translate(-50%, -50%);
-} */
+}
+
+@media (max-width: 900px) {
+  #drop {
+    top: 0;
+  }
+}
 
 /* ARTICLE 4 : PERCENTAGES STYLE */
 /*=============================================================================*/
