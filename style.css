@@ -338,6 +338,48 @@ text {
   margin-left: auto;
 }
 
+/* ARTICLE 5 : INSTRUCTIONS STYLE */
+/*=============================================================================*/
+#instructions {
+  position: relative;
+  margin-top: 2rem;
+}
+
+#inst-sub-ttl {
+  margin: 0;
+  transform: rotate(-4deg);
+  position: absolute;
+  margin-inline: auto; 
+  width: fit-content;
+  left: 45%;
+  top: -9px;
+}
+
+#inst-ttl {
+  padding-top: 1.3rem;
+  margin: 2rem auto;
+}
+
+.bllt_point {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  gap: 1rem;
+}
+
+.bllt_point > div:nth-child(1) {
+  padding: 5px 10px;
+  border-radius: 50%;
+  width: 1rem;
+}
+
+.inst-card > video {
+  width: 200px;
+}
+
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
 #footer {
