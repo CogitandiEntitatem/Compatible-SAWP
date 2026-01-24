@@ -231,13 +231,15 @@ text {
   padding: 0 18% 0 18%;
 }
 
-/* ARTICLE 4 : PERCENTAGES STYLE */
+/* DIV : DROP */
 /*=============================================================================*/
-#stats {
+.drop-anchor {
+  z-index: -1;
   position: relative;
+  height: 140px;
 }
 
-.curve4 {
+.drop-curve {
   position: absolute;
   top: 0;
   left: 0;
@@ -246,30 +248,28 @@ text {
   line-height: 0;
 }
 
-.curve4 svg {
+.drop-curve svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 144px;
+  height: 120px;
 }
 
-.curve4 .shape-fill {
-  fill: #FF5A65;
+.drop-curve .shape-fill {
+  fill: var(--cstm-colour-pink);
 }
 
-#ripple {
+/* #drop {
   position: absolute;
-  z-index: -1;
-  top: 64%;
   height: 600px ;
+  /* top: 64%;
   transform: translate(-50%, -50%);
-}
+} */
 
-
-#stats > div {
-  display: flex;
-  justify-content: center;
-  padding-top:80px;
+/* ARTICLE 4 : PERCENTAGES STYLE */
+/*=============================================================================*/
+#stats {
+  position: relative;
 }
 
 #impact {
