@@ -38,6 +38,9 @@ body {
 
   width: fit-content;
   height: fit-content;
+}
+
+.h_center {
   margin: 0 auto;
 }
 
