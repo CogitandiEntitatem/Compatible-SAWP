@@ -82,6 +82,14 @@ body {
   }
 }
 
+/* GRID RULES */
+/*=============================================================================*/
+._flex_cont_cntr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* ARTICLE 1 : COVER STYLE */
 /*=============================================================================*/
 
@@ -288,9 +296,6 @@ text {
 /*=============================================================================*/
 
 #impact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
 }
@@ -361,16 +366,10 @@ text {
 }
 
 .inst-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
 .bllt_point {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
   font-size: 1.5rem;
   font-weight: 1000;
@@ -383,7 +382,7 @@ text {
   width: 1rem;
 }
 
-.inst-card > video {
+.inst-card-vis > video {
   width: 200px;
 }
 
