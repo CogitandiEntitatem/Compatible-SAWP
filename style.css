@@ -68,6 +68,15 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+._4x4 {
+  max-width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(44vw, 1fr));
+}
+
 /* GRID RULES */
 /*=============================================================================*/
 ._flex_cont_cntr {
