@@ -391,8 +391,8 @@ text {
 }
 
 .bllt_point > .bttn_fk {
-  font-size: clamp(1.6rem, 5vw, 3rem);
-  width: clamp(1.6rem, 5vw, 3rem);;
+  font-size: clamp(1.6rem, 5vw, 2rem);
+  width: clamp(1.6rem, 5vw, 2rem);;
 }
 
 ._stat_warp {
