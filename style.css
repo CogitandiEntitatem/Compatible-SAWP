@@ -8,7 +8,6 @@
   --font-sz-reg  :  small; */
 }
 
-
 html {
   font-family: sans-serif;
   /* 1 */
@@ -29,6 +28,10 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+article {
+  padding: 2rem 0;
 }
 
 .bttn_fk {
@@ -356,7 +359,7 @@ text {
 /*=============================================================================*/
 #instructions {
   position: relative;
-  margin-top: 2rem;
+  padding-top: 0;
 }
 
 #inst-sub-ttl {
