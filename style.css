@@ -457,6 +457,19 @@ text {
   margin: auto 0.4rem;
 }
 
+.p-right, .p-left {
+  width: min(95vw,600px);
+  margin: 1rem auto;
+}
+
+.p-right {
+  text-align: end;
+}
+
+.p-left {
+  text-align: start;
+}
+
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
 #footer {
