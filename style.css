@@ -400,6 +400,25 @@ text {
   gap: 0.8rem 0;
 }
 
+/* ARTICLE 5 __ BANNER */
+/*=============================================================================*/
+.inst-bnnr {
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.inst-bnnr > img {
+  width: 80px;
+}
+
+.inst-bnnr > p {
+  width: 75vw;
+  margin: 1rem auto;
+}
+
+
+
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
 #footer {
