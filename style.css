@@ -379,7 +379,11 @@ text {
 .bllt_point > div:nth-child(1) {
   padding: 5px 10px;
   border-radius: 50%;
-  width: 1rem;
+}
+
+.bllt_point > .bttn_fk {
+  font-size: clamp(1.6rem, 5vw, 3rem);
+  width: clamp(1.6rem, 5vw, 3rem);;
 }
 
 ._stat_warp {
