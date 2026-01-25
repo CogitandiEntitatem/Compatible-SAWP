@@ -417,7 +417,9 @@ text {
   margin: 1rem auto;
 }
 
-
+.inst-bnnr > p > span {
+  font-size: 1.5rem;
+}
 
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
