@@ -433,13 +433,18 @@ text {
 /* ARTICLE 5 __ COMPATIBLE */
 /*=============================================================================*/
 .header-svg {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  line-height: normal;
+  font-size: clamp(2.4rem, 6vw, 3.8rem);
 }
 
 .header-svg > img {
-  height: 1.5rem;
+  height: clamp(1.8rem, 4vw, 2.6rem);
   margin: auto 0.4rem;
 }
 
