@@ -695,11 +695,8 @@ text {
   outline: 0;
 }
 
-/* ARTICLE N : FOOTER STYLE */
+/* ARTICLE 9 : FOOTER STYLE */
 /*=============================================================================*/
-#footer {
-  margin: 2rem 0 6rem 0;
-}
 
 #footer video{
   width: 40vw;
