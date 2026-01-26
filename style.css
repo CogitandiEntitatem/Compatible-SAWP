@@ -67,6 +67,13 @@ article {
   gap: 10px;
 }
 
+@media (max-width: 690px) {
+  ._3x2 {
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+  }
+  
+}
+
 ._2x2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
