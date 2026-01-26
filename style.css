@@ -585,6 +585,35 @@ text {
   top: -2.4rem;
 }
 
+/* ARTICLE 7 : VOLUNTAD STYLE */
+/*=============================================================================*/
+
+.voluntad-ttl {
+  flex: 1;
+  display: inline;
+  position: relative;
+  left: -30%;
+  min-width: 330px;
+}
+
+.voluntad-ttl > div:nth-child(1) {
+  position: relative;
+  left: 1rem;
+  top: -1.3rem;
+}
+
+.voluntad-ttl > div:nth-child(2) {
+  position: relative;
+  left: -1rem;
+  top: -1.8rem;
+}
+
+.voluntad-ttl > div:nth-child(3) {
+  position: relative;
+  left: 5.5rem;
+  top: -2.4rem;
+}
+
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
 #footer {
