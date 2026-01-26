@@ -588,31 +588,41 @@ text {
 /* ARTICLE 7 : VOLUNTAD STYLE */
 /*=============================================================================*/
 
+._flex_jst_cntr {
+  justify-content: center;
+}
+
 .voluntad-ttl {
-  flex: 1;
   display: inline;
   position: relative;
-  left: -30%;
   min-width: 330px;
+  width: fit-content;
 }
 
 .voluntad-ttl > div:nth-child(1) {
   position: relative;
-  left: 1rem;
-  top: -1.3rem;
+  left: -5vw;
+  top: -1rem;
 }
 
 .voluntad-ttl > div:nth-child(2) {
   position: relative;
-  left: -1rem;
+  left: -2vw;
   top: -1.8rem;
 }
 
 .voluntad-ttl > div:nth-child(3) {
   position: relative;
-  left: 5.5rem;
+  left: 1vw;
   top: -2.4rem;
 }
+
+#dna {
+  position: relative;
+  top: -2rem;
+  transform: rotate(90deg);
+  height: clamp(150px,10vw,350px);
+} 
 
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
