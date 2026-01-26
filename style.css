@@ -506,7 +506,7 @@ text {
   top: -2.7rem;
 }
 
-._6x2 {
+._flex_warp_sashed {
   display: flex;
   flex-direction: row;
   justify-content: center;
