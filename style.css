@@ -165,6 +165,7 @@ article {
   left: 2rem;
   top: -1.3rem;
 }
+
 .medula-ttl > div:nth-child(2) {
   position: relative;
   left: 5rem;
@@ -476,6 +477,36 @@ text {
 .p-left {
   text-align: start;
 }
+/* ARTICLE 5 : MITOS STYLE */
+/*=============================================================================*/
+
+.mitos-ttl {
+  flex: 1;
+  display: inline;
+  position: relative;
+  left: -30%;
+  min-width: 330px;
+}
+
+.mitos-ttl > div:nth-child(1) {
+  position: relative;
+  left: 2rem;
+  top: -1.3rem;
+}
+
+.mitos-ttl > div:nth-child(2) {
+  position: relative;
+  left: 5rem;
+  top: -2.1rem;
+}
+
+.mitos-ttl > div:nth-child(3) {
+  position: relative;
+  left: 7.5rem;
+  top: -2.7rem;
+}
+
+
 
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
