@@ -622,7 +622,12 @@ text {
   top: -2rem;
   transform: rotate(90deg);
   height: clamp(150px,10vw,350px);
-} 
+}
+
+.voluntad_sash {
+  width: min(85vw, 40rem);
+  margin: 0 auto;
+}
 
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
