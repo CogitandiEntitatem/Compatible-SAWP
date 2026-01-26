@@ -477,6 +477,7 @@ text {
 .p-left {
   text-align: start;
 }
+
 /* ARTICLE 5 : MITOS STYLE */
 /*=============================================================================*/
 
@@ -543,6 +544,7 @@ text {
   backface-visibility: hidden;
   font-weight: 650;
 }
+
 .m-card_frnt {
   color: #000;
   background-image: url('assets/gris-textura-webp.webp');
@@ -552,6 +554,35 @@ text {
   color: #fff;
   background-image: url('assets/roja-textura-webp.webp');
   transform: rotateY(180deg);
+}
+
+/* ARTICLE 5 : MITOS STYLE */
+/*=============================================================================*/
+
+.c2a-ttl {
+  flex: 1;
+  display: inline;
+  position: relative;
+  left: -30%;
+  min-width: 330px;
+}
+
+.c2a-ttl > div:nth-child(1) {
+  position: relative;
+  left: 2rem;
+  top: -1.3rem;
+}
+
+.c2a-ttl > div:nth-child(2) {
+  position: relative;
+  left: 4rem;
+  top: -1.8rem;
+}
+
+.c2a-ttl > div:nth-child(3) {
+  position: relative;
+  left: 5.4rem;
+  top: -2.4rem;
 }
 
 /* ARTICLE N : FOOTER STYLE */
