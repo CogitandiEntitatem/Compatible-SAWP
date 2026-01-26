@@ -241,6 +241,7 @@ text {
 }
 
 #medula-pills {
+  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -248,9 +249,16 @@ text {
   gap: 0.5rem;
 }
 
-#medula-pills>div{
+#medula-pills > div{
   flex: 1;
-  /* margin: 0 0 0 6rem; */
+}
+
+#medula-pills > img {
+  position: absolute;
+  transform: rotate(-70deg);
+  width: 80px;
+  top: 2rem;
+  z-index: -1;
 }
 
 /* ARTICLE 3 : RED-CPH STYLE */
