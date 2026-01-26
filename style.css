@@ -629,6 +629,36 @@ text {
   margin: 0 auto;
 }
 
+/* ARTICLE 8 : FORMULARIO STYLE */
+/*=============================================================================*/
+
+#formulario {
+  display: flex;
+  justify-content: center;
+}
+
+#formulario > form {
+  display: block;
+  width: min(90vw,50rem);
+}
+
+#formulario > form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+#formulario > form > div > label {
+  text-align: start;
+}
+
+#formulario > form > label{
+  display: block;
+  margin: auto;
+  text-align: start;
+  margin: 0 16px 1rem 16px;
+}
+
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
 #footer {
