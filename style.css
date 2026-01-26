@@ -427,6 +427,34 @@ text {
   z-index: -1;
 }
 
+#checklist {
+  position: relative;
+  background-image: url('assets/notebook-static webp.webp');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7rem 0;
+}
+
+#check-form {
+  margin: 0 auto;
+  text-align: start;
+  width: min(85vw,40rem);
+}
+
+#check-form > div {
+  display: flex;
+  align-items: flex-start;
+  margin: 24px 0;
+}
+
+#checklist > img {
+  position: absolute;
+  width: 9rem;
+  bottom: 4rem;
+  right: 34vw;;
+}
+
 /* ARTICLE 5 __ BANNER */
 /*=============================================================================*/
 .inst-bnnr {
@@ -479,7 +507,7 @@ text {
   text-align: start;
 }
 
-/* ARTICLE 5 : MITOS STYLE */
+/* ARTICLE 6 : MITOS STYLE */
 /*=============================================================================*/
 
 .mitos-ttl {
