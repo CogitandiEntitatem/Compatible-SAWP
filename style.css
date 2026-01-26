@@ -679,6 +679,22 @@ text {
     -webkit-mask-position: -50%;
   }
 }
+
+#formulario > form > div > input {
+   height: 2rem;
+  border-width: 0;
+  padding: 1px 12px;
+  background-image: url('assets/tab-inactive-webp.webp');
+  background-size: 100% 100%;
+  background-repeat: repeat;
+}
+
+#formulario > form > div > input:focus {
+  background-image: url('assets/tab-active-webp.webp');
+  border-width: 0;
+  outline: 0;
+}
+
 /* ARTICLE N : FOOTER STYLE */
 /*=============================================================================*/
 #footer {
