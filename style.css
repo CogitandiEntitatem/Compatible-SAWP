@@ -189,6 +189,7 @@ article {
   margin-top: 4rem;
   margin-bottom: 2rem;
   position: relative;
+  min-width: 200px;
 }
 
 .medula-card > img {
@@ -226,18 +227,16 @@ text {
 }
 
 #medula-girl {
-  position: absolute;
   width: 200px;
   height: 200px;
-  left: 27% ;
-  margin: 0;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
 #medula-p2 {
   flex: 1;
-  max-width: 30vw;
+  width: max(100px,30vw);
+  margin: 30px 40px;
 }
 
 #medula-pills {
@@ -258,7 +257,23 @@ text {
   transform: rotate(-70deg);
   width: 80px;
   top: 2rem;
+  left: -3rem;
   z-index: -1;
+}
+
+.medula-row-3{
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.medula-row-3 > div {
+  min-width: 200px;
+}
+
+@media (max-width: 480px) {
+  #medula-pills > img {
+    visibility: hidden;
+  }
 }
 
 /* ARTICLE 3 : RED-CPH STYLE */
